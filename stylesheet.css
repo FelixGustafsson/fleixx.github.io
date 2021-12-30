@@ -1,0 +1,149 @@
+/*HTML ELEMENTS*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(0, 0, 0);
+  height: 200vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*IMPORTED FONTS*/
+@font-face {
+  font-family: "PlayfairDisplayBold";
+  src: url("PlayfairDisplay-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url("PlayfairDisplay-Regular.ttf");
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/*CLASSES FOR THE WHOLE DOCUMENT*/
+.flex {
+  display: flex;
+}
+
+/*NAVIGATIONAL MENU*/
+
+.logo {
+  font-family: "PlayfairDisplayBold";
+  color: rgb(255, 255, 255);
+  margin-right: 59vw;
+  margin-left: 2vw;
+  margin-top: 1vh;
+  font-size: 5vh;
+}
+
+.navbar {
+  height: auto;
+  align-items: center;
+  position: fixed;
+  backdrop-filter: blur(20px);
+  width: 100vw;
+}
+
+.menu {
+  list-style: none;
+  flex-direction: row;
+  font-family: "PlayfairDisplayBold";
+  font-size: 1.5rem;
+  font-weight: 4rem;
+  color: rgb(255, 255, 255);
+}
+
+.nav-margin {
+  margin-left: 2vw;
+}
+
+.spacing {
+  letter-spacing: 0.2rem;
+}
+
+/*HOMEPAGE*/
+
+.homepage {
+  height: 100vh;
+  background-image: url(burger.jpg);
+  font-family: "PlayfairDisplay";
+  font-size: 5vh;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.homepage-text {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.edf {
+  width: 100%;
+  justify-content: center;
+}
+
+.homelist {
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.home-margin {
+  margin-right: 5.4vw;
+  margin-left: 5.4vw;
+}
+
+.home-btn {
+  color: white;
+  font-family: "PlayfairDisplay";
+  font-size: 4vh;
+  margin-top: 4vh;
+  padding-bottom: 0.3rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border: 0.3rem solid white;
+  border-radius: 1rem;
+}
+
+.home-btn:hover {
+  border: none;
+  background: white;
+  color: black;
+}
+
+/* FOOD MENU */
+
+.food-menu {
+  flex-direction: row;
+}
+
+.menu-slideshow {
+  height: 100vh;
+  width: 50vw;
+}
+
+.portrait {
+  height: 100vh;
+  width: 50vw;
+  justify-content: center;
+  align-items: center;
+}
